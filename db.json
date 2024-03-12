@@ -1,0 +1,203 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Smart Phone",
+      "brand": "XYZ",
+      "model": "A1",
+      "price": 1500,
+      "quantity": 50,
+      "color": "Black",
+      "features": [
+        "4G LTE",
+        "64 GB ram",
+        "5.5 inc screen"
+      ],
+      "picture": "https://picsum.photos/201"
+    },
+    {
+      "id": "2",
+      "title": "Labtop",
+      "brand": "ABC",
+      "model": "B2",
+      "price": 3000,
+      "quantity": 30,
+      "color": "Silver",
+      "features": [
+        "Intel Core i7",
+        "16 GB RAM",
+        "512 GB SSD"
+      ],
+      "picture": "https://picsum.photos/202"
+    },
+    {
+      "id": "3",
+      "title": "Wireless Headphone",
+      "brand": "DEF",
+      "model": "C3",
+      "price": 150,
+      "quantity": 100,
+      "color": "White",
+      "features": [
+        "Bluetooth 5.0",
+        "touch control",
+        "20 hours battery life"
+      ],
+      "picture": "https://picsum.photos/203"
+    },
+    {
+      "id": "4",
+      "title": "Smart watch",
+      "brand": "GHI",
+      "model": "D4",
+      "price": 500,
+      "quantity": 20,
+      "color": "Metal Gray",
+      "features": [
+        "GPS",
+        "heart rate sensor",
+        "Waterproof"
+      ],
+      "picture": "https://picsum.photos/204"
+    },
+    {
+      "id": "5",
+      "title": "Smart Television",
+      "brand": "KLM",
+      "model": "E5",
+      "price": 2500,
+      "quantity": 40,
+      "color": "Black",
+      "features": [
+        "4K Ultra HD",
+        "Smart TV",
+        "50 inc screen"
+      ],
+      "picture": "https://picsum.photos/205"
+    },
+    {
+      "id": "6",
+      "title": "Gaming PC",
+      "brand": "NOP",
+      "model": "F6",
+      "price": 4000,
+      "quantity": 25,
+      "color": "RGB Illuminated",
+      "features": [
+        "NVIDIA GeForce RTX 3080",
+        "32 GB RAM",
+        "1 TB NVMe SSD"
+      ],
+      "picture": "https://picsum.photos/206"
+    },
+    {
+      "id": "14",
+      "title": "Bluetooth Speaker",
+      "brand": "QRS",
+      "model": "G7",
+      "price": 120,
+      "quantity": 80,
+      "color": "Blue",
+      "features": [
+        "Wireless charging",
+        "Portable",
+        "10 hours battery life"
+      ],
+      "picture": "https://picsum.photos/207"
+    },
+    {
+      "id": "7",
+      "title": "Camera Set",
+      "brand": "TUV",
+      "model": "H8",
+      "price": 800,
+      "quantity": 15,
+      "color": "Black",
+      "features": [
+        "4 cameras",
+        "Night vision",
+        "motion detection"
+      ],
+      "picture": "https://picsum.photos/208"
+    },
+    {
+      "id": "8",
+      "title": "Wireless Mouse",
+      "brand": "XYZ",
+      "model": "F9",
+      "price": 80,
+      "quantity": 60,
+      "color": "Black",
+      "features": [
+        "Ergonomic design",
+        "1200 DPI",
+        "Bidirectional scrolling"
+      ],
+      "picture": "https://picsum.photos/209"
+    },
+    {
+      "id": "9",
+      "title": "Fitness Smart Bracelet",
+      "brand": "ABC",
+      "model": "B10",
+      "price": 120,
+      "quantity": 35,
+      "color": "Pink",
+      "features": [
+        "Heart rate monitoring",
+        "Pedometer",
+        "Sleep tracking"
+      ],
+      "picture": "https://picsum.photos/210"
+    },
+    {
+      "id": "10",
+      "title": "Portable External SSD",
+      "brand": "DEF",
+      "model": "C11",
+      "price": 200,
+      "quantity": 45,
+      "color": "Grey",
+      "features": [
+        "500 GB storage",
+        "USB-C connection",
+        "Fast data transfer"
+      ],
+      "picture": "https://picsum.photos/211"
+    },
+    {
+      "id": "11",
+      "title": "Gaming Keyboard and Mouse Set",
+      "brand": "GHI",
+      "model": "D12",
+      "price": 150,
+      "quantity": 25,
+      "color": "RGB Illuminated",
+      "features": [
+        "mechanical keys",
+        "Programmable keys",
+        "optical gaming mouse"
+      ],
+      "picture": "https://picsum.photos/212"
+    }
+  ],
+  "basket": [
+    {
+      "id": "1",
+      "brand": "XYZ",
+      "model": "A1",
+      "price": 1500,
+      "quantity": 24,
+      "picture": "https://picsum.photos/201",
+      "piece": 12
+    },
+    {
+      "id": "2",
+      "brand": "ABC",
+      "model": "B2",
+      "price": 3000,
+      "quantity": 9,
+      "picture": "https://picsum.photos/202"
+    }
+  ]
+}
