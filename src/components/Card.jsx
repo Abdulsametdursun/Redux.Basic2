@@ -40,7 +40,9 @@ const Card = ({ product }) => {
           onClick={handleClick}
           className="w-100 d-flex justify-content-between"
         >
-          <span>{found ? "Increase the Amount" : "Add to Card"}</span>
+          <span>
+            {found ? `Increase the Amount (${found.quantity})` : "Add to Card"}
+          </span>
           <span className="text-warning"> ${product.price}</span>
         </button>
       </div>

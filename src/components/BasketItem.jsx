@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { updateItem } from "../redux/actions/basketActions";
+import { updateItem, removeItem } from "../redux/actions/basketActions";
 
 const BasketItem = ({ item }) => {
   const dispatch = useDispatch();
@@ -23,6 +23,12 @@ const BasketItem = ({ item }) => {
             className="btn btn-sm btn-primary"
           >
             +
+          </button>
+          <button
+            onClick={() => dispatch(removeItem(item.id))}
+            className="btn btn-sm btn-danger"
+          >
+            X
           </button>
         </div>
       </div>

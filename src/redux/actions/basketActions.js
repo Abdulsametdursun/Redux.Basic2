@@ -20,7 +20,7 @@ export const getBasketData = () => (dispatch) => {
   axios
     .get("/basket")
     .then((res) => dispatch(setBasket(res.data)))
-    .catch((err) => (dispatch = setBasketError()));
+    .catch((err) => dispatch(setBasketError()));
 };
 
 // Adding to new item to card
@@ -51,4 +51,9 @@ export const updateItem = (product) => (dispatch) => {
     .catch((err) => dispatch(setBasketError()));
 };
 
-export const removeItem = () => (dispatch) => {};
+export const removeItem = (delete_id) => (dispatch) => {
+  axios
+    .delete(`/basket/${delete_id}`)
+    .then(() => dispatch({ type: ActionTypes.REMOVE_ITEM, payload: delete_id }))
+    .catch((err) => dispatch(setBasketError()));
+};

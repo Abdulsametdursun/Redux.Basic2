@@ -187,17 +187,24 @@
       "brand": "XYZ",
       "model": "A1",
       "price": 1500,
-      "quantity": 24,
-      "picture": "https://picsum.photos/201",
-      "piece": 12
+      "quantity": 1,
+      "picture": "https://picsum.photos/201"
     },
     {
       "id": "2",
       "brand": "ABC",
       "model": "B2",
       "price": 3000,
-      "quantity": 9,
+      "quantity": 2,
       "picture": "https://picsum.photos/202"
+    },
+    {
+      "id": "3",
+      "brand": "DEF",
+      "model": "C3",
+      "price": 150,
+      "quantity": 2,
+      "picture": "https://picsum.photos/203"
     }
   ]
 }
